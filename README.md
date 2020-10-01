@@ -15,7 +15,10 @@ You can use a browser of your choice to download Git.
 
 1. Open the link [https://github.com/](https://github.com/) in your web browser.
 
-> If you don't have a GitHub account, follow the link [https://github.com/join](https://github.com/join) to sign up.
+<img src="clone/01_Log_In.png" width="300">
+
+> If you don't have a GitHub account, follow the link [https://github.com/join](https://github.com/join) to sign up. <br>
+> <img src="clone/02_Join.png" width="300">
 
 - [Installing Git](Installing_Git.md) <br> This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup Wizard. You will need to install Git to use the command line tool.
 
