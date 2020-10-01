@@ -63,10 +63,25 @@ Next we will clone the forked repository on a local maching using Git command li
 
 ...
 
+## Creating a Pull Request
+
+Pull request is a mechanism to share your changes with the original project contributors and incorporate your changes in such upstream project.
+
+1. Open the upstream repository in the browser using the link [nobl9/writingtest](https://github.com/nobl9/writingtest).
+
+> 💡 The link to the original repository is also located in the tag line **forked from ...** on your forked repository page. (See picture at step 5 in **Find and Fork the Test Repository** above.)
+
+<img src="clone/10_Click_Pull_Request.png" width="500">
+
+2. Click **Pull Requests** in the repository toolbar.
+
+
+
+
 Congratulations! You have successfully completed forking a GitHub repository and creating pull request.
 
 ## Resources
-The following are extra resources to help you through the installation process. 
+The following are extra resources to help you through with further information. 
 1. [Getting started with GitHub](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github)
 2. [Working with forks](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/working-with-forks) in Github Docs
 3. [Creating a pull request from a fork](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
