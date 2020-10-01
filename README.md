@@ -14,6 +14,10 @@ This will automatically download when your run the executable file.
 
 1. Open a browser and go to [https://git-scm.com/download/win](https://git-scm.com/download/win) to download Git.
 
+![GNU Public License](images/1_GNU_Public_License.png | width=480)
+
+<img alt="GNU Public License" scr="images/1_GNU_Public_License.png" width="480"/>
+
 2. Select the hyperlink applicable to your system setup. This tutorial uses the **64-bit Git for Windows Setup** hyperlink.
 An executable (.exe) file appears in the lower left corner of your browser window. 
 
