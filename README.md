@@ -59,7 +59,7 @@ Next we will clone the forked repository on a local maching using Git command li
 
 - [Installing Git](Installing_Git.md) <br> This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup Wizard. You will need to install Git to use the command line tool.
 
-- [Setting Up SSH Key](SSH_Key.md) <br> Procedures to generate, set up an SSH key and use it with a GitHub account.
+- [Setting Up SSH Key](SSH_Key.md) <br> Procedures to generate, set up an SSH key and use it with a GitHub account. <br> With SSH keys, you can connect to GitHub without supplying your username or password at each visit. <br> Using SSH is optional, alternative being an HTTPS connection.
 
 ...
 
