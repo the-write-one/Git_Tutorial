@@ -100,7 +100,7 @@ To verify successful installation you will need to launch the Git command line.
 3. Choose **Git Bash** from the search results. The Git Bash terminal window appears.
 4. Enter `git --version` in the command prompt.
 
-<img src="images/Verifying_Git" width="400"/>
+<img src="images/Verifying_Git.png" width="400"/>
 
 Congratulations! You have successfully installed Git.
 
