@@ -1,4 +1,4 @@
-# Cloning GitHub Repositories and Creating Pull Requests
+# Forking GitHub Repositories and Creating Pull Requests
 
 Learn to use the GitHub web application and Git command line tools to clone a Git repository, make changes and create a pull request for merging your changes into the source project.
 
@@ -63,7 +63,7 @@ Next we will clone the forked repository on a local maching using Git command li
 
 ...
 
-Congratulations! You have successfully completed cloning GitHub repository and creating pull request.
+Congratulations! You have successfully completed forking a GitHub repository and creating pull request.
 
 ## Resources
 The following are extra resources to help you through the installation process. 
