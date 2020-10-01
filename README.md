@@ -1,5 +1,22 @@
 # Cloning GitHub Repositories and Creating Pull Requests
 
+Learn to use the GitHub web application and Git command line tools to clone a Git repository, make changes and create a pull request for merging your changes into the source project.
+
+## Pre-requisites
+
+The following software and tools are used:
+
+1. Chrome browser (version 85.0.4183.121).
+You can use a browser of your choice to download Git.
+  
+2. Windows 10™ operating system.
+
+## Logging into GitHub
+
+1. Open the link [https://github.com/] in your web browser.
+
+> If you don't have a GitHub account, follow the link [https://github.com/join] to sign up.
+
 - [Installing Git](Installing_Git.md) <br> This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup Wizard. You will need to install Git to use the command line tool.
 
 - [Setting Up SSH Key](SSH_Key.md) <br> Procedures to generate, set up an SSH key and use it with a GitHub account.
