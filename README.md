@@ -29,7 +29,7 @@ To log into GitHub:
 > Enter **Username**, **Email** and **Password**, and select **Create Account**. Follow the directions to verify your email address.<br>
 > <img src="clone/02_Join.png" width="400">
 
-## Find and Clone the Test Repository
+## Find and Fork the Test Repository
 
 Once logged in, you should see the GitHub web page with your account icon on the right.
 
@@ -42,6 +42,20 @@ Once logged in, you should see the GitHub web page with your account icon on the
 <img src="clone/04_Find.png" width="400">
 
 3. Click on the repository name `nobl9/writingtest` in the search results to navigate to the repository page.
+
+<img src="clone/04_Find.png" width="400">
+
+4. On the repository page, click on the **Fork** button. Wait for the forking process to complete.
+
+<img src="clone/05_Repo_Page.png" width="400">
+
+<img src="clone/06_Forking.png" width="400">
+
+5. Once forking is complete, you should see the `writingtest` repository under your account.
+
+<img src="clone/07_Forked.png" width="400">
+
+Next we will clone the forked repository on a local maching using Git command line.
 
 ## Cloning the Fork Using Git Command Line
 
