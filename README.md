@@ -29,7 +29,7 @@ To log into GitHub:
 > Enter **Username**, **Email** and **Password**, and select **Create Account**. Follow the directions to verify your email address.<br>
 > <img src="clone/02_Join.png" width="400">
 
-## Find and Fork the Test Repository
+## Finding and Forking the Test Repository
 
 Once logged in, you should see the GitHub web page with your account icon on the right.
 
@@ -93,8 +93,10 @@ Next we will clone the forked repository on a local maching using Git command li
 
 Congratulations! You have successfully completed forking a GitHub repository and creating a pull request.
 
-## Resources
-The following are extra resources to help you through with further information. 
+## Additional Resources
+
+The following are extra resources to help you with further information.
+
 1. [Getting started with GitHub](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github)
 2. [Working with forks](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/working-with-forks) in Github Docs
 3. [Creating a pull request from a fork](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
