@@ -3,14 +3,14 @@
 Learn to use the GitHub web application and Git command line tools to clone a Git repository, make changes and create a pull request for merging your changes into the source project.
 
 **Contents**
-- Pre-requisites
-- Logging into GitHub
-- Finding and Forking the Test Repository
-- Cloning the Fork Using Git Command Line
+- [Pre-requisites](#pre-requisites)
+- [Logging into GitHub](#logging-into-github)
+- [Finding and Forking the Test Repository](#finding-and-forking-the-test-repository)
+- [Cloning the Fork Using Git Command Line](#cloning-the-fork-using-git-command-line)
   - [Installing Git](Installing_Git.md)
   - [Setting Up SSH Key](SSH_Key.md)
-- Creating a Pull Request
-- Additional Resources
+- [Creating a Pull Request](#creating-a-pull-request)
+- [Additional Resources](#creating-a-pull-request)
 
 ## Pre-requisites
 
