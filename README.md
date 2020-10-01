@@ -67,7 +67,8 @@ Congratulations! You have successfully completed forking a GitHub repository and
 
 ## Resources
 The following are extra resources to help you through the installation process. 
-1. Installing Git: <br> https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-2. How to Install Git on Windows: <br> https://phoenixnap.com/kb/how-to-install-git-windows
+1. [Getting started with GitHub](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github)
+2. [Working with forks](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/working-with-forks) in Github Docs
+3. [Creating a pull request from a fork](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
 
 
