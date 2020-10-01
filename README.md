@@ -19,7 +19,7 @@ You can use a browser of your choice to download Git.
 
 <img src="clone/01_Log_In.png" width="400">
 
-> If you don't have a GitHub account, follow the link [https://github.com/join](https://github.com/join) to sign up.
+> 💡 If you don't have a GitHub account, follow the link [https://github.com/join](https://github.com/join) to sign up.
 > Enter **Username**, **Email** and **Password**, and select **Create Account**. Follow the directions to verify your email address.<br>
 > <img src="clone/02_Join.png" width="400">
 
