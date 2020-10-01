@@ -12,7 +12,7 @@ This will automatically download when you run the executable file.
 
 ## Installing Git for Windows
 
-1. Open a browser and go to [https://git-scm.com/download/win](https://git-scm.com/download/win) to download Git.
+1. Open a browser and go to [https://git-scm.com/download/win](https://git-scm.com/download/win) to download Git for Windows.
 
 > :bulb: Other platforms, such as Linux or Mac OS, are available from the main download page: <a href="https://git-scm.com/download">https://git-scm.com/download</a>.
 
