@@ -73,7 +73,7 @@ Git command line tools can be used for working remotely. The separate tutorials 
 
 1. Open the upstream repository in the browser using the link [nobl9/writingtest](https://github.com/nobl9/writingtest).
 
-> 💡 The link to the original repository is also located in the tag line **forked from ...** on your forked repository page. (See picture at step 5 in **Find and Fork the Test Repository** above.)
+> 💡 The link to the original repository is also located in the tag line **forked from ...** on your forked repository page. (See picture at step 5 in [Finding and Forking the Test Repository](#finding-and-forking-the-test-repository) above.)
 
 <img src="clone/10_Click_Pull_Request.png" width="600">
 
@@ -91,7 +91,7 @@ Git command line tools can be used for working remotely. The separate tutorials 
 
 5. Fill out the pull request **Title** and **Comment**. Finally select either **Create pull request** or **Create draft pull request** to complete the pull request.
 
-> 💡 If draft pull request is created, you have an opportunity to review and edit the request before the final submission.)
+> 💡 If draft pull request is created, you have an opportunity to review and edit the request before the final submission.
 
 <img src="clone/14_Comments.png" width="600">
 
