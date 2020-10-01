@@ -14,7 +14,7 @@ This will automatically download when you run the executable file.
 
 1. Open a browser and go to [https://git-scm.com/download/win](https://git-scm.com/download/win) to download Git.
 
-<div class=""extended-markdown note">Other platforms, such as Linux or Mac OS, are available from the main download page: <a href="https://git-scm.com/download">https://git-scm.com/download</a>.</div>
+> :bulb: Other platforms, such as Linux or Mac OS, are available from the main download page: <a href="https://git-scm.com/download">https://git-scm.com/download</a>.
 
 2. Select the hyperlink applicable to your system setup. This tutorial uses the **64-bit Git for Windows Setup** hyperlink.
 An executable (.exe) file appears in the lower left corner of your browser window. 
