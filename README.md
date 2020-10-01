@@ -77,6 +77,10 @@ Next we will clone the forked repository on a local maching using Git command li
 
 <img src="clone/11_New_Pull_Request.png" width="500">
 
+3. On the **Compare changes** page select **compare across forks**. Note: the compare branches now show other forks. Select your project and branch in the **head repository**. 
+
+<img src="clone/12_Compare_Across_Forks" width="500">
+
 
 
 Congratulations! You have successfully completed forking a GitHub repository and creating pull request.
