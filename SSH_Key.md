@@ -10,7 +10,7 @@ If any files exist, the `ls` command shows the files in your directory.
 
 In the following example, the command returned no existing SSH key files. You will need to generate an SSH key and then add it to the SSH agent.
 
-<img src="images/Check_Existing_SSH_Key.png" width="400"/>
+<img src="/images/Check_Existing_SSH_Key.png" width="400"/>
 
 ## Generating a New SSH Key
 If you don't want to reenter a password every time you use your SSH key, you must add your key to an SSH agent. The SSH agent manages SSH keys and remembers your passwords.
