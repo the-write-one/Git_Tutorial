@@ -55,7 +55,11 @@ Once logged in, you should see the GitHub web page with your account icon on the
 
 Next we will clone the forked repository on a local maching using Git command line.
 
-## Cloning the Fork Using Git Command Line
+## Cloning and Forking with Git Command Line
+
+Cloning a Git repository creates a local copy on your computer and allows working remotely and syncing between the two locations.
+
+Git command line tools can be used for working remotely. The separate tutorials below provide details how to install and configure them on your local computer.
 
 - [Installing Git](Installing_Git.md) <br> This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup Wizard. You will need to install Git to use the command line tool.
 
