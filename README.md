@@ -96,11 +96,11 @@ select **Launch Git Bash** and **View Release Notes**. Git Bash is the command l
 To verify successful installation you will need to launch the Git command line. 
 
 1. Open the Windows Start menu.
-2. Enter "git".
-3. Choose Git Bash from the search results. The Git Bash terminal window appears.
+2. Enter `git`.
+3. Choose **Git Bash** from the search results. The Git Bash terminal window appears.
 4. Enter `git --version` in the command prompt.
 
-<img src="Verifying_Git" width="400"/>
+<img src="images/Verifying_Git" width="400"/>
 
 Congratulations! You have successfully installed Git.
 
