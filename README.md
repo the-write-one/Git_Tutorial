@@ -13,6 +13,11 @@ You can use a browser of your choice to download Git.
 
 ## Logging into GitHub
 
+GitHub is a web application and online repository for using the version control system called Git.
+The GitHub web application allow browsing existing repositories, and performing certain maintanence tasks
+in the browser, such as creating a new repository, cloning existing repositories, making simple file changes, etc. 
+
+To log into GitHub:
 1. Open the link [https://github.com/](https://github.com/) in your web browser. If are already signed in, proceed to the next section.
 2. To sign in, if you already have an account, choose **Sign In** from the top-left menu.
 3. Enter your user name and password, click **Sign In**.
