@@ -43,11 +43,9 @@ Once logged in, you should see the GitHub web page with your account icon on the
 
 3. Click on the repository name `nobl9/writingtest` in the search results to navigate to the repository page.
 
-<img src="clone/04_Find.png" width="400">
-
-4. On the repository page, click on the **Fork** button. Wait for the forking process to complete.
-
 <img src="clone/05_Repo_Page.png" width="400">
+
+4. On the repository page, click on the **Fork** button on the top left. Wait for the forking process to complete.
 
 <img src="clone/06_Forking.png" width="400">
 
