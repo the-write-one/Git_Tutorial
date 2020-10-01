@@ -10,7 +10,7 @@ You can use a browser of your choice to download Git.
 3. Git Setup (version 2.38.0).
 This will automatically download when you run the executable file.
 
-# Installing Git for Windows
+## Installing Git for Windows
 
 1. Open a browser and go to [https://git-scm.com/download/win](https://git-scm.com/download/win) to download Git.
 
@@ -19,7 +19,7 @@ An executable (.exe) file appears in the lower left corner of your browser windo
 
 3. Click the .exe file to start the Git Setup Wizard. 
 
-# Configuring Git with the Git Setup Wizard
+## Configuring Git with the Git Setup Wizard
 
 This section guides you through the Git Setup Wizard in explicit detail. If you are already familiar with Git, proceed through the wizard prompts.
 
@@ -92,10 +92,17 @@ select **Launch Git Bash** and **View Release Notes**. Git Bash is the command l
 
 <img src="images/15_Completing_Git_Setup_Wizard.png" width="400"/>
 
+## Verifing Installation
+1. Launch the Git command line. 
+2. Open the Windows Start menu 
+2. Enter "git"
+4. Choose Git Bash from the search results. The Git Bash terminal window appears.
+5. In the command prompt, enter `git --version`.
+
 
 Congratulations! You have successfully installed Git.
 
-# Resources
+## Resources
 The following are extra resources to help you through the installation process. 
 1. Installing Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 2. How to Install Git on Windows: https://phoenixnap.com/kb/how-to-install-git-windows
