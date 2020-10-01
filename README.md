@@ -65,7 +65,7 @@ Next we will clone the forked repository on a local maching using Git command li
 
 ## Creating a Pull Request
 
-Pull request is a mechanism to share your changes with the original project contributors and incorporate your changes in such upstream project.
+*Pull request* is a mechanism to share your changes with the original project contributors and incorporate your changes in such upstream project.
 
 1. Open the upstream repository in the browser using the link [nobl9/writingtest](https://github.com/nobl9/writingtest).
 
