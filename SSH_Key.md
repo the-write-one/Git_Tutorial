@@ -1,5 +1,5 @@
 # Setting Up SSH Key
-An SSH key is an access credential. Its function is primarily used for automated processes and implementing a sign-on by system administrators and power users. This short tutorial includes user screenshots and follows the method found [here](https://docs.github.com/en/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+An SSH key is an access credential. Its function is primarily used for automated processes and implements a single sign-on (SSO) by system administrators and power users. This short tutorial includes user screenshots and follows the method found [here](https://docs.github.com/en/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
 ## Checking for Existing SSH Keys
 Check for existing SSH keys before adding a key.
