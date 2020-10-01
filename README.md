@@ -8,7 +8,7 @@ Congratulations! You have successfully completed cloning GitHub repository and c
 
 ## Resources
 The following are extra resources to help you through the installation process. 
-1. Installing Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-2. How to Install Git on Windows: https://phoenixnap.com/kb/how-to-install-git-windows
+1. Installing Git: <br> https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+2. How to Install Git on Windows: <br> https://phoenixnap.com/kb/how-to-install-git-windows
 
 
