@@ -2,7 +2,7 @@
 
 This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup wizard. You will need to install Git use the command line tool. The following equipment and tools are used:
 
-- Chrome browser (version 85.0.4183.121).
+- Chrome browser (version 85.0.4183.121)
  You can use a browser of your choice to download Git.
  
 - Windows 10™ operating system
@@ -55,10 +55,7 @@ How should Git treat line endings in a text file? By default, **Checkout Window-
 11. Choose a credential helper and click **Next**.
 The credential helpers are externals programs from which Git can request both usernames and passwords. These are used so you don't have to type in a username and password every time when accessing a program. Credential helpers can cache your credentials in memory for a short period of time or store keeps credentials indefinitely on disk.
 
-12. Choose to enable configure extra features and click **Next**. By default, **Enable file system caching** is selected. 
-
-Enabling system caching provides a significant performance boost.
-
+12. Choose to enable configure extra features and click **Next**. By default, **Enable file system caching** is selected. Enabling system caching provides a significant performance boost.
  **Enable symbolic links** requires permissions. Symbolic links make sure files are in consistent places without moving or copying the original. Multiple copies of the same file can exist in different places, but only one file is referenced.
  
 13. Choose to configure experimental bleeding-edge features and click **Install**. For novice Git users this feature is not recommended. Bleeding-edge features relates to the latest innovative technologies or software builds, which can result in an unstable environment.
@@ -66,9 +63,7 @@ Enabling system caching provides a significant performance boost.
 14. Wait while Setup the extracts files to install Git on your computer. When installation is complete the wizard forwards you to the next screen. Click **Next** to exit the Git Setup Wizard.
 
 15. Verify the settings on the ** Completing the Git Setup Wizard** screen and
-select **Launch Git Bash** and **View Release Notes**. 
-
-Git Bash is the command line utility you will need to communicate with Git.
+select **Launch Git Bash** and **View Release Notes**. Git Bash is the command line utility you will need to communicate with Git.
 
 Congratulations! You have successfully installed Git.
 
