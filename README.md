@@ -73,8 +73,9 @@ Next we will clone the forked repository on a local maching using Git command li
 
 <img src="clone/10_Click_Pull_Request.png" width="500">
 
-2. Click **Pull Requests** in the repository toolbar.
+2. Select the **Pull Requests** tab in the repository toolbar. Click **New pull request**.
 
+<img src="clone/11_New_Pull_Request.png" width="500">
 
 
 
