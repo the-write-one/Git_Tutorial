@@ -35,23 +35,23 @@ Once logged in, you should see the GitHub web page with your account icon on the
 
 1. Locate the **Search or jump to...** field.
 
-<img src="clone/03_Search.png" width="400">
+<img src="clone/03_Search.png" width="500">
 
 2. Enter `nobl9/writingtest` in the search field and press Enter. You should see the repository in the search result.
 
-<img src="clone/04_Find.png" width="400">
+<img src="clone/04_Find.png" width="500">
 
 3. Click on the repository name `nobl9/writingtest` in the search results to navigate to the repository page.
 
-<img src="clone/05_Repo_Page.png" width="400">
+<img src="clone/05_Repo_Page.png" width="500">
 
 4. On the repository page, click on the **Fork** button on the top left. Wait for the forking process to complete.
 
-<img src="clone/06_Forking.png" width="400">
+<img src="clone/06_Forking.png" width="500">
 
 5. Once forking is complete, you should see the `writingtest` repository under your account.
 
-<img src="clone/07_Forked.png" width="400">
+<img src="clone/07_Forked.png" width="500">
 
 Next we will clone the forked repository on a local maching using Git command line.
 
