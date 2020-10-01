@@ -98,7 +98,7 @@ Congratulations! You have successfully installed Git.
 
 # Resources
 The following are extra resources to help you through the installation process. 
-Installing Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-How to Install Git on Windows: https://phoenixnap.com/kb/how-to-install-git-windows
+1. Installing Git: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+2. How to Install Git on Windows: https://phoenixnap.com/kb/how-to-install-git-windows
 
 
