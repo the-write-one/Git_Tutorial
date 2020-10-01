@@ -71,17 +71,25 @@ Next we will clone the forked repository on a local maching using Git command li
 
 > 💡 The link to the original repository is also located in the tag line **forked from ...** on your forked repository page. (See picture at step 5 in **Find and Fork the Test Repository** above.)
 
-<img src="clone/10_Click_Pull_Request.png" width="500">
+<img src="clone/10_Click_Pull_Request.png" width="600">
 
 2. Select the **Pull Requests** tab in the repository toolbar. Click **New pull request**.
 
-<img src="clone/11_New_Pull_Request.png" width="500">
+<img src="clone/11_New_Pull_Request.png" width="600">
 
 3. On the **Compare changes** page select **compare across forks**. Note: the compare branches now show other forks. Select your project and branch in the **head repository**. 
 
-<img src="clone/12_Compare_Across_Forks" width="500">
+<img src="clone/12_Compare_Across_Forks.png" width="600">
 
+4. Review the highlighted changes. Then click the **Create pull request** button.
 
+<img src="clone/13_Compare_Changes.png" width="600">
+
+5. Fill out the pull request **Title** and **Comment**. Finally select either **Create pull request** or **Create draft pull request** to complete the pull request.
+
+> 💡 If draft pull request is created, you have an opportunity to review and edit the request before the final submission.)
+
+<img src="clone/14_Comments.png" width="600">
 
 Congratulations! You have successfully completed forking a GitHub repository and creating pull request.
 
