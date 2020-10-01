@@ -29,6 +29,22 @@ To log into GitHub:
 > Enter **Username**, **Email** and **Password**, and select **Create Account**. Follow the directions to verify your email address.<br>
 > <img src="clone/02_Join.png" width="400">
 
+## Find and Clone the Test Repository
+
+Once logged in, you should see the GitHub web page with your account icon on the right.
+
+1. Locate the **Search or jump to...** field.
+
+<img src="clone/03_Search.png" width="400">
+
+2. Enter `nobl9/writingtest` in the search field and press Enter. You should see the repository in the search result.
+
+<img src="clone/04_Find.png" width="400">
+
+3. Click on the repository name `nobl9/writingtest` in the search results to navigate to the repository page.
+
+## Cloning the Fork Using Git Command Line
+
 - [Installing Git](Installing_Git.md) <br> This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup Wizard. You will need to install Git to use the command line tool.
 
 - [Setting Up SSH Key](SSH_Key.md) <br> Procedures to generate, set up an SSH key and use it with a GitHub account.
