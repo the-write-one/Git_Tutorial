@@ -77,7 +77,7 @@ Next we will clone the forked repository on a local maching using Git command li
 
 <img src="clone/11_New_Pull_Request.png" width="600">
 
-3. On the **Compare changes** page select **compare across forks**. Note: the additional **head repository** selector now appears and contains a list of the repository forks. Select your project in the **head repository**, and the branch (defalts to `master`). 
+3. On the **Compare changes** page select **compare across forks**. Note: the additional **head repository** selector now appears and contains a list of the repository forks. Select your project in **head repository** selector, and the branch in **compare** (`master` by default). 
 
 <img src="clone/12_Compare_Across_Forks.png" width="600">
 
