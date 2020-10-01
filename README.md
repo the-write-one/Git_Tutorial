@@ -81,13 +81,13 @@ The credential helpers are external programs from which Git can request both use
  
 13. Choose to configure experimental bleeding-edge features and click **Install**. For novice Git users this feature is not recommended. Bleeding-edge features relates to the latest innovative technologies or software builds, which can result in an unstable environment.
 
- <img src="images/13_Configuring_Experimental_Options.png"" width="400"/>
+ <img src="images/13_Configuring_Experimental_Options.png" width="400"/>
 
-14. Wait while Setup the extracts files to install Git on your computer. When installation is complete the wizard forwards you to the next screen. Click **Next** to exit the Git Setup Wizard.
+14. Wait while Git Setup extracts files to install on your computer. When the installation completes, the wizard forwards you to the next screen. Click **Next** to exit the Git Setup Wizard.
 
 <img src="images/14_Installing.png" width="400"/>
 
-15. Verify the settings on the ** Completing the Git Setup Wizard** screen and
+15. Verify the settings on the **Completing the Git Setup Wizard** screen and
 select **Launch Git Bash** and **View Release Notes**. Git Bash is the command line utility you will need to communicate with Git.
 
 <img src="images/15_Completing_Git_Setup_Wizard.png" width="400"/>
