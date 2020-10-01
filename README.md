@@ -10,7 +10,7 @@ Learn to use the GitHub web application and Git command line tools to clone a Gi
   - [Installing Git](Installing_Git.md)
   - [Setting Up SSH Key](SSH_Key.md)
 - [Creating a Pull Request](#creating-a-pull-request)
-- [Additional Resources](#creating-a-pull-request)
+- [Additional Resources](#additional-resources)
 
 ## Pre-requisites
 
