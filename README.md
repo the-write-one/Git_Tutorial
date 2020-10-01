@@ -1,13 +1,13 @@
 # Introduction
 
-This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup wizard. You will need to install Git use the command line tool. The following equipment and tools are used:
+This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup wWzard. You will need to install Git use the command line tool. The following equipment and tools are used:
 
-- Chrome browser (version 85.0.4183.121)
- You can use a browser of your choice to download Git.
- 
-- Windows 10™ operating system
+1. Chrome browser (version 85.0.4183.121).
+You can use a browser of your choice to download Git.
+  
+2. Windows 10™ operating system.
 
-- Git Setup (version 2.38.0)
+3. Git Setup (version 2.38.0).
 This will automatically download when your run the executable file.
 
 # Installing Git for Windows
@@ -19,7 +19,7 @@ An executable (.exe) file appears in the lower left corner of your browser windo
 
 3. Click the .exe file to start the Git Setup Wizard. 
 
-# Git Setup
+# Configuring Git Through the Git Setup Wizard
 
 This section is guides you through the Git Setup wizard in explicit detail. If you are already familiar with the Git proceed throught.
 
