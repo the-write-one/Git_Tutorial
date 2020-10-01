@@ -2,6 +2,8 @@
 
 - [Installing Git](Installing_Git.md) <br> This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup Wizard. You will need to install Git to use the command line tool.
 
+- [Setting Up SSH Key](SSH_Key.md) <br> Procedures to generate, set up an SSH key and use it with a GitHub account.
+
 ...
 
 Congratulations! You have successfully completed cloning GitHub repository and creating pull request.
