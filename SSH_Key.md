@@ -15,8 +15,8 @@ IMAGE HERE
 ## Generating a New SSH Key
 If you don't want to reenter a password every time you use your SSH key, you must add your key to an SSH agent. The SSH agent manages SSH keys and remembers your passwords.
 1. Open Git Bash.
-2. Enter the following test and substitute your email address: `$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
-This command generates a new SSH key, using the email address as a label.
+2. Enter the following test and substitute your email address: `$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`.
+The command generates a new SSH key, using the email address as a label.
 3. Press **enter** when prompted to **Enter a file to save the key**. This action accepts the default file location.
 4. Enter a secure passphrase when prompted.
 >:bulb: If you do not want a passphrase associated with the SSH key, leave the passphrase field empty by pressing enter. Press enter again when prompted again to enter a  passphrase.
