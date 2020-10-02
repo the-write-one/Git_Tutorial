@@ -1,9 +1,9 @@
 # Forking GitHub Repositories and Creating Pull Requests
 
-Learn to use the GitHub web application and Git command line tools to clone a Git repository, make changes and create a pull request for merging your changes into the source project.
+Learn to use the GitHub web application and Git command-line tools to clone a Git repository, make, and create a pull request for merging your changes into the source project.
 
 **Contents**
-- [Pre-requisites](#pre-requisites)
+- [Prerequisites](#prerequisites)
 - [Logging into GitHub](#logging-into-github)
 - [Finding and Forking the Test Repository](#finding-and-forking-the-test-repository)
 - [Cloning the Fork Using Git Command Line](#cloning-the-fork-using-git-command-line)
@@ -12,7 +12,7 @@ Learn to use the GitHub web application and Git command line tools to clone a Gi
 - [Creating a Pull Request](#creating-a-pull-request)
 - [Additional Resources](#additional-resources)
 
-## Pre-requisites
+## Prerequisites
 
 The following software and tools are used:
 
@@ -24,12 +24,12 @@ You can use a browser of your choice to download Git.
 ## Logging into GitHub
 
 GitHub is a web application and online repository based on the Git version control system.
-The GitHub web application allows browsing existing repositories, and performing certain maintanence tasks
+The GitHub web application allows browsing existing repositories, and performing certain maintenence tasks
 in the browser, such as creating a new repository, cloning existing repositories, making simple file changes, 
 committing the changes, merging into the source (or upstream) project using pull requests, etc. 
 
 To log into GitHub:
-1. Open the link [https://github.com/](https://github.com/) in your web browser. If are already signed in, proceed to the next section.
+1. Open the link [https://github.com/](https://github.com/) in your web browser. If you are already signed in, proceed to the next section.
 2. To sign in, if you already have an account, choose **Sign In** from the top-left menu.
 3. Enter your user name and password, click **Sign In**.
 
@@ -63,7 +63,7 @@ Once logged in, you should see the GitHub web page with your account icon on the
 
 <img src="clone/07_Forked.png" width="500">
 
-Next we will clone the forked repository on a local maching using Git command line.
+Next, we will clone the forked repository on a local maching using Git command line.
 
 ## Cloning the Fork Using Git Command Line
 
@@ -190,9 +190,9 @@ At this point, you may want to verify the changes at the GitHub server:
 
 <img src="clone/13_Compare_Changes.png" width="600">
 
-5. Fill out the pull request **Title** and **Comment**. Finally select either **Create pull request** or **Create draft pull request** to complete the pull request.
+5. Fill out the pull request **Title** and **Comment**. Finally, select either **Create pull request** or **Create draft pull request** to complete the pull request.
 
-> 💡 If draft pull request is created, you have an opportunity to review and edit the request before the final submission.
+> 💡 If a draft pull request is created, you have an opportunity to review and edit the request before the final submission.
 
 <img src="clone/14_Comments.png" width="600">
 
