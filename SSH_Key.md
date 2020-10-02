@@ -10,7 +10,7 @@ If any files exist, the `ls` command shows the files in your directory.
 
 In the following example, the command returned no existing SSH key files. You will need to generate an SSH key and then add it to the SSH agent.
 
-<img src="/images/Check_Existing_SSH_Key.png" width="400"/>
+<img src="ssh/Check_Existing_SSH_Key.png"/>
 
 ## Generating a New SSH Key
 If you don't want to reenter a password every time you use your SSH key, you must add your key to an SSH agent. The SSH agent manages SSH keys and remembers your passwords.
@@ -19,9 +19,10 @@ If you don't want to reenter a password every time you use your SSH key, you mus
 The command generates a new SSH key, using the email address as a label.
 3. Press **enter** when prompted to **Enter a file to save the key**. This action accepts the default file location.
 4. Enter a secure passphrase when prompted.
->:bulb: If you do not want a passphrase associated with the SSH key, leave the passphrase field empty by pressing enter. Press enter again when prompted again to enter a  passphrase.
 
-<img src="images/Create_SSH_Key.png" width="400"/>
+> 💡 If you do not want a passphrase associated with the SSH key, leave the passphrase field empty by pressing enter. Press enter again when prompted again to enter a  passphrase.
+
+<img src="ssh/Create_SSH_Key.png"/>
 
 ## Adding Your SSH Key to the SSH-Agent
 Git Bash is a recommended way of running `git` commands on Windows. GitHub Desktop can also clone repositories and is a workaround for not having to deal with SSH keys.
@@ -38,7 +39,7 @@ $ eval $(ssh-agent -s)
 4. Start the SSH-agent in the background.
 5. Add your SSH private to the SSH-agent.
 
-<img src="images/Adding_SSH_Key_to_SSH_Agent.png" width="400"/>
+<img src="ssh/Adding_SSH_Key_to_SSH_Agent.png"/>
 
 
 ...
