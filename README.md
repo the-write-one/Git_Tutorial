@@ -111,7 +111,7 @@ Cloning into `writingtest` ...
 Git **commit** captures a series of changes in a local repository. A separate **push** step is used to send the changes to the GitHub server.
 
 1. Locate the repository folder in the command line (Git Bash). Use `cd writingtest` if needed.
-2. Type `git commit -m "<message>"`, where `<message>` is the commit comment
+2. Type `git commit -a -m "<message>"`, where `<message>` is the commit comment
 ```
 $ git commit -a -m "Other change"
 1 file changed, 2 insertions(+)
