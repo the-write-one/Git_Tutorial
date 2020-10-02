@@ -75,7 +75,56 @@ Git command line tools can be used for working remotely. The separate tutorials 
 
 - [Setting Up SSH Key](SSH_Key.md) <br> Procedures to generate, set up an SSH key and use it with a GitHub account. <br> With SSH keys, you can connect to GitHub without supplying your username or password at each visit. <br> Using SSH is optional, alternative being an HTTPS connection.
 
-...
+### Cloning the repository locally
+
+1. Navigate to your fork of the repository in GitHub. Click the **Code** button above the file list.
+
+<img src="clone/20_Clone_HTPPS.png" width="600">
+
+2. Select either **HTTPS** or **SSH** (optional) tab depending on type of connection used for Git.<br>
+   Click the highlighted **Copy** icon to place the URL in the clipboard.
+   
+3. Open **Git Bash** from the Windows Start menu.
+
+4. Change the current directory to the parent folder where the cloned repository will be placed. Here we will create a new directory and change into it.
+```
+$ mkdir github
+$ cd github
+```
+
+5. Type `git clone ` (ending with a space), then paste the URL (Right-Click), and press Enter. <br>
+   The URL will depend on whether **HTTPS** or **SSH** was chosen earlier, but the process is the same.
+```
+$ git clone https://github.com/the-write-one/writingtest.git
+Cloning into `writingtest` ...
+```
+
+### Making local changes
+
+1. Locate the `README.md` file in the repository folder
+2. Open the file in a text editor. Notepad or Notepad++ can be used.
+3. Make some changes in the text file.
+4. Save the changes in the same file. Exit the text editor.
+
+### Committing the change locally
+
+Git **commit** captures a series of changes in a local repository. A separate **push** step is used to send the changes to the GitHub server.
+
+1. Locate the repository folder in the command line (Git Bash). Use `cd writingtest` if needed.
+1. Type `git commit -m "<message>"`, where `<message>` is the commit comment
+```
+$ git commit -m "Other change"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   README.md
+```
+
+> 💡 Using **HTTPS** may require configuring user name and email. Such as running:
+> ```
+> git config --global user.email "you@example.com"
+> git config --global user.name "Your Name"
+
 
 ## Creating a Pull Request
 
