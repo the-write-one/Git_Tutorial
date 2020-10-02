@@ -140,13 +140,13 @@ $ git commit -a -m "Other change"
 1. Type `git push`<br>
 
 > 💡 Note: optional omitted parameters `<repository> <branch>` are `origin` and `master`, typical for working with the default main branch.
-> To verify the repository name and URL use `git remote -v`. The name of the active branch is show in `github status` (see [Making local changes](#making-local-changes) above).
+> To verify the repository name and URL use `git remote -v`.
 > ```
 > $ git remote -v
 > origin  https://github.com/the-write-one/writingtest.git (fetch)
 > origin  https://github.com/the-write-one/writingtest.git (push)
 > ```
-
+> The name of the active branch is show in `github status` (see [Making local changes](#making-local-changes) above).
 
 2. (Optional if **HTTPS** is used) enter **Username** and **Password** at the prompt.
 ```
