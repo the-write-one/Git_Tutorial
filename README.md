@@ -75,7 +75,7 @@ Git command line tools can be used for working remotely. The separate tutorials 
 
 - [Setting Up SSH Key](SSH_Key.md) <br> Procedures to generate, set up an SSH key and use it with a GitHub account. <br> With SSH keys, you can connect to GitHub without supplying your username or password at each visit. <br> Using SSH is optional, alternative being an HTTPS connection.
 
-### Cloning the repository locally
+### Cloning the Repository Locally
 
 1. Navigate to your fork of the repository in GitHub. Click the **Code** button above the file list.
 
@@ -103,7 +103,7 @@ In case of SSH, the URL will look like this:
 git clone git@github.com:the-write-one/writingtest.git
 ```
 
-### Making local changes
+### Making Local Changes
 
 1. Locate the `README.md` file in the repository folder
 2. Open the file in a text editor. **Notepad** or **Notepad++** can be used.
@@ -119,7 +119,7 @@ Changes not staged for commit:
 ```
 > 💡 Note: `origin/master` are the names of the repository and the branch, which are later used in [Pushing to the GitHub Server](#pushing-to-the-github-server).
 
-### Committing the change locally
+### Committing the Change Locally
 
 Git **commit** captures a series of changes in a local repository. A separate **push** step is used to send the changes to the GitHub server.
 
