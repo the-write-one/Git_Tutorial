@@ -111,13 +111,10 @@ Cloning into `writingtest` ...
 Git **commit** captures a series of changes in a local repository. A separate **push** step is used to send the changes to the GitHub server.
 
 1. Locate the repository folder in the command line (Git Bash). Use `cd writingtest` if needed.
-1. Type `git commit -m "<message>"`, where `<message>` is the commit comment
+2. Type `git commit -m "<message>"`, where `<message>` is the commit comment
 ```
-$ git commit -m "Other change"
-On branch master
-Your branch is up-to-date with 'origin/master'.
-Changes not staged for commit:
-        modified:   README.md
+$ git commit -a -m "Other change"
+1 file changed, 2 insertions(+)
 ```
 
 > 💡 Using **HTTPS** may require configuring user name and email. Such as running:
@@ -125,6 +122,29 @@ Changes not staged for commit:
 > git config --global user.email "you@example.com"
 > git config --global user.name "Your Name"
 
+### Pushing to the GitHub Server
+
+1. Type `git push`
+2. (Optional if **HTTPS** is used) enter **Username** and **Password** at the prompt.
+
+```
+$ git push
+
+Username for 'https://github.com': the-write-one
+Password for 'https://the-write-one@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 304 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/the-write-one/writingtest.git
+   53ff74c..98d0755  master -> master
+```
+
+At this point, you may want to verify the changes at the GitHub server:
+
+<img src="clone/21_Server_Changes.png" width="600">
 
 ## Creating a Pull Request
 
