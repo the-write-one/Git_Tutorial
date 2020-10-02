@@ -124,9 +124,9 @@ $ git commit -a -m "Other change"
 
 ### Pushing to the GitHub Server
 
-1. Type `git push`
+1. Type `git push`<br>
+   Note: optional omitted parameters `<repository> <branch>` are `origin` and `master`, typical for working with the main branch.
 2. (Optional if **HTTPS** is used) enter **Username** and **Password** at the prompt.
-
 ```
 $ git push
 
