@@ -1,6 +1,6 @@
 # Forking GitHub Repositories and Creating Pull Requests
 
-Learn to use the GitHub web application and Git command-line tools to clone a Git repository, make, and create a pull request for merging your changes into the source project.
+Learn to use the GitHub web application and Git command-line tools to clone a Git repository, make changes and create a pull request for merging your changes into the source project.
 
 **Contents**
 - [Prerequisites](#prerequisites)
@@ -35,7 +35,7 @@ To log into GitHub:
 
 <img src="clone/01_Log_In.png" width="400">
 
-> 💡 If you don't have a GitHub account, select **Sign In** or follow the link [https://github.com/join](https://github.com/join) to sign up.
+> 💡 If you don't have a GitHub account, select **Sign Up** or follow the link [https://github.com/join](https://github.com/join).
 > Enter **Username**, **Email** and **Password**, and select **Create Account**. Follow the directions to verify your email address.<br>
 > <img src="clone/02_Join.png" width="400">
 
@@ -51,11 +51,11 @@ Once logged in, you should see the GitHub web page with your account icon on the
 
 <img src="clone/04_Find.png" width="500">
 
-3. Click on the repository name `nobl9/writingtest` in the search results to navigate to the repository page.
+3. Click the repository name `nobl9/writingtest` in the search results to navigate to the repository page.
 
 <img src="clone/05_Repo_Page.png" width="500">
 
-4. On the repository page, click on the **Fork** button on the top left. Wait for the forking process to complete.
+4. On the repository page, click the **Fork** button on the top left. Wait for the forking process to complete.
 
 <img src="clone/06_Forking.png" width="500">
 
@@ -67,13 +67,13 @@ Next, we will clone the forked repository on a local maching using Git command l
 
 ## Cloning the Fork Using Git Command Line
 
-Cloning a Git repository creates a local copy on your computer and allows working remotely and syncing between the two locations.
+Cloning a Git repository creates a local copy on your computer for working remotely. Git command line tools allow syncing changes between the two locations. 
 
-Git command line tools can be used for working remotely. The separate tutorials below provide details how to install and configure them on your local computer.
+The separate tutorials below provide details how to install and configure them on your local computer.
 
 - [Installing Git](Installing_Git.md) <br> This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup Wizard. You will need to install Git to use the command line tool.
 
-- [Setting Up SSH Key](SSH_Key.md) <br> Procedures to generate, set up an SSH key and use it with a GitHub account. <br> With SSH keys, you can connect to GitHub without supplying your username or password at each visit. <br> Using SSH is optional, alternative being an HTTPS connection.
+- [Setting Up SSH Key](SSH_Key.md) <br> Procedures to generate, set up an SSH key and use it with a GitHub account. <br> With SSH keys, you can connect to GitHub without supplying your username or password at each visit. <br> SSH is an optional alternative to an HTTPS connection, which does not have a key configuration step, but will require username and password for Git operations.
 
 ### Cloning the Repository Locally
 
@@ -86,7 +86,7 @@ Git command line tools can be used for working remotely. The separate tutorials 
    
 3. Open **Git Bash** from the Windows Start menu.
 
-4. Change the current directory to the parent folder where the cloned repository will be placed. Here we will create a new directory and change into it.
+4. Change the current directory to the parent folder, where the cloned repository will be placed. Here we will create a new directory and change into it.
 ```
 $ mkdir github
 $ cd github
@@ -130,25 +130,25 @@ $ git commit -a -m "Other change"
 1 file changed, 2 insertions(+)
 ```
 
-> 💡 Using **HTTPS** may require configuring user name and email. Such as running:
+> 💡 Using **HTTPS** may require configuring the username and email. Such as running:
 > ```
 > git config --global user.email "you@example.com"
 > git config --global user.name "Your Name"
 
 ### Pushing to the GitHub Server
 
-1. Type `git push`<br>
+1. Type `git push` and press Enter <br>
 
-> 💡 Note: optional omitted parameters `<repository> <branch>` are `origin` and `master`, typical for working with the default main branch.
+> 💡 Note: Optional omitted parameters `<repository> <branch>` are `origin` and `master`, typical for working with the default main branch.
 > To verify the repository name and URL use `git remote -v`.
 > ```
 > $ git remote -v
 > origin  https://github.com/the-write-one/writingtest.git (fetch)
 > origin  https://github.com/the-write-one/writingtest.git (push)
 > ```
-> The name of the active branch is show in `github status` (see [Making local changes](#making-local-changes) above).
+> The name of the active branch is shown using `github status` (see [Making local changes](#making-local-changes) above).
 
-2. (Optional if **HTTPS** is used) enter **Username** and **Password** at the prompt.
+2. (Only if **HTTPS** is used) enter **Username** and **Password** at the prompt.
 ```
 $ git push
 
@@ -170,11 +170,11 @@ At this point, you may want to verify the changes at the GitHub server:
 
 ## Creating a Pull Request
 
-*Pull request* is a mechanism to share your changes and conduct reviews with the original project contributors.
+*Pull request* is a procedure to share and review your changes with the original project contributors.
 
 1. Open the upstream repository in the browser using the link [nobl9/writingtest](https://github.com/nobl9/writingtest).
 
-> 💡 The link to the original repository is also located in the tag line **forked from ...** on your forked repository page. (See picture at step 5 in [Finding and Forking the Test Repository](#finding-and-forking-the-test-repository) above.)
+> 💡 The link to the original repository can also be found in the tag line **forked from ...** on your forked repository page. (See the picture under step 5 in [Finding and Forking the Test Repository](#finding-and-forking-the-test-repository) above.)
 
 <img src="clone/10_Click_Pull_Request.png" width="600">
 
@@ -182,17 +182,17 @@ At this point, you may want to verify the changes at the GitHub server:
 
 <img src="clone/11_New_Pull_Request.png" width="600">
 
-3. On the **Compare changes** page select **compare across forks**. Note: the additional **head repository** selector now appears and contains a list of the repository forks. Select your project in **head repository** selector, and the branch in **compare** (`master` by default). 
+3. On the **Compare changes** page select **compare across forks**. Note: the additional **head repository** selector now appears and contains a list of existing repository forks. Select your project in **head repository**, and the branch in **compare** (`master` by default). 
 
 <img src="clone/12_Compare_Across_Forks.png" width="600">
 
-4. Review the highlighted changes. Then click the **Create pull request** button.
+4. Review the changes corresponding to the selection. Then click the **Create pull request** button.
 
 <img src="clone/13_Compare_Changes.png" width="600">
 
 5. Fill out the pull request **Title** and **Comment**. Finally, select either **Create pull request** or **Create draft pull request** to complete the pull request.
 
-> 💡 If a draft pull request is created, you have an opportunity to review and edit the request before the final submission.
+> 💡 If a draft pull request is created, you have an opportunity to preview and edit the request before the final submission.
 
 <img src="clone/14_Comments.png" width="600">
 
