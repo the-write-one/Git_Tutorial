@@ -37,14 +37,27 @@ $ eval $(ssh-agent -s)
 
 > 💡 If you created your key with a different name, or are adding an existing key that has different name, replace id_rsa in the command with the name of your private key file.
 
-3. Add the SSH key to your GitHub account. (If you do not have a GitHub account, you will need to create one.)
-4. Start the SSH-agent in the background.
-5. Add your SSH private to the SSH-agent.
+## Adding Your SSH Key to Your GitHub Account
 
-<img src="ssh/Adding_SSH_Key_to_SSH_Agent.png"/>
+1. Copy to the clipboard the contents of the generated public key file
+```
+$ pbcopy -K ~/.ssh/id_rsa
+```
+
+2. Open [https://github.com/](https://github.com/) in the browser, and from the Account icon on the top right select **Settings**
+
+<img src="ssh/Account_Settings.png"/>
+
+3. Select **SSH and PGP Keys** from the left menu. 
+4. Click the **New SSH Key** button.
+5. Enter the key **Title** as something, which would identify the local machine.
+6. Paste the key contents into the **Key** text area.
+
+<img src="ssh/Account_Settings.png"/>
+
+7. Click **Add SSH Key**. Enter your password on the confirmation screen.
 
 
-...
 
 Congratulations! You have successfully set up SSH key for use with the GitHub repository.
 
