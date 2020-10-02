@@ -98,6 +98,10 @@ $ cd github
 $ git clone https://github.com/the-write-one/writingtest.git
 Cloning into `writingtest` ...
 ```
+In case of SSH, the URL will look like this:
+```
+git clone git@github.com:the-write-one/writingtest.git
+```
 
 ### Making local changes
 
@@ -113,6 +117,7 @@ Your branch is up-to-date with 'origin/master'.
 Changes not staged for commit:
         modified:   README.md
 ```
+> 💡 Note: `origin/master` are the names of the repository and the branch, which are later used in [Pushing to the GitHub Server](#pushing-to-the-github-server).
 
 ### Committing the change locally
 
