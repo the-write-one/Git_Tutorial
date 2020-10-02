@@ -53,11 +53,13 @@ $ pbcopy -K ~/.ssh/id_rsa
 5. Enter the key **Title** as something, which would identify the local machine.
 6. Paste the key contents into the **Key** text area.
 
-<img src="ssh/Account_Settings.png"/>
+<img src="ssh/Add_SSH.png"/>
 
 7. Click **Add SSH Key**. Enter your password on the confirmation screen.
 
+Confirm the SSH key is created correctly.
 
+<img src="ssh/Verify_SSH.png"/>
 
 Congratulations! You have successfully set up SSH key for use with the GitHub repository.
 
