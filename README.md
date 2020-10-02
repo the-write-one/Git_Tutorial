@@ -182,6 +182,8 @@ The following are extra resources to help you with further information.
 
 1. [Getting started with GitHub](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github)
 2. [Working with forks](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/working-with-forks) in Github Docs
-3. [Creating a pull request from a fork](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
+3. [Getting changes from a remote repository](https://docs.github.com/en/free-pro-team@latest/github/using-git/getting-changes-from-a-remote-repository#cloning-a-repository)
+4. [Pushing commits to a remote repository](https://docs.github.com/en/free-pro-team@latest/github/using-git/pushing-commits-to-a-remote-repository)
+5. [Creating a pull request from a fork](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
 
 
