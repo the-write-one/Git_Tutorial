@@ -102,9 +102,17 @@ Cloning into `writingtest` ...
 ### Making local changes
 
 1. Locate the `README.md` file in the repository folder
-2. Open the file in a text editor. Notepad or Notepad++ can be used.
+2. Open the file in a text editor. **Notepad** or **Notepad++** can be used.
 3. Make some changes in the text file.
 4. Save the changes in the same file. Exit the text editor.
+
+It is a good idea to verify that the changes are made in the correct file and are ready to be committed:
+```
+$ git status
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+        modified:   README.md
+```
 
 ### Committing the change locally
 
