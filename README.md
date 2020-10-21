@@ -7,8 +7,7 @@ Learn to use the GitHub web application and Git command-line tools to clone a Gi
 The following software and tools are used:
 
 1. Chrome browser (version 85.0.4183.121).
-You can use a browser of your choice to download Git.
-  
+You can use a browser of your choice to download Git. 
 2. Windows 10™ operating system.
 
 ## Logging into GitHub
