@@ -208,4 +208,4 @@ The following are extra resources to help you with further information.
 4. [Pushing commits to a remote repository](https://docs.github.com/en/free-pro-team@latest/github/using-git/pushing-commits-to-a-remote-repository)
 5. [Creating a pull request from a fork](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
 
-
+For GitHub Pages
