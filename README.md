@@ -1,6 +1,6 @@
 # Forking GitHub Repositories and Creating Pull Requests
 
-Learn to use the GitHub web application and Git command-line tools to clone a Git repository, make changes and create a pull request for merging your changes into the source project.
+Learn to use the GitHub web application and Git command-line tools to clone a Git repository, make changes, and create a pull request for merging your changes into the source project.
 
 ## Prerequisites
 
@@ -13,13 +13,13 @@ You can use a browser of your choice to download Git.
 ## Logging into GitHub
 
 GitHub is a web application and online repository based on the Git version control system.
-The GitHub web application allows browsing existing repositories, and performing certain maintenence tasks
+The GitHub Web application allows browsing existing repositories and performing certain maintenance tasks
 in the browser, such as creating a new repository, cloning existing repositories, making simple file changes, 
-committing the changes, merging into the source (or upstream) project using pull requests, etc. 
+committing the changes, merging into the source (or upstream) project using a pull request. 
 
 To log into GitHub:
 1. Open the link [https://github.com/](https://github.com/) in your web browser. If you are already signed in, proceed to the next section.
-2. To sign in, if you already have an account, choose **Sign In** from the top-left menu.
+2. Choose **Sign In** from the top-left menu (if you already have an account).
 3. Enter your user name and password, click **Sign In**.
 
 <img src="clone/01_Log_In.png" width="400">
@@ -30,13 +30,13 @@ To log into GitHub:
 
 ## Finding and Forking the Test Repository
 
-Once logged in, you should see the GitHub web page with your account icon on the right.
+Once logged in, you will see the GitHub web page with your account icon on the right.
 
 1. Locate the **Search or jump to...** field.
 
 <img src="clone/03_Search.png" width="500">
 
-2. Enter `nobl9/writingtest` in the search field and press Enter. You should see the repository in the search result.
+2. Enter `nobl9/writingtest` in the search field and press Enter. You will see the repository in the search result.
 
 <img src="clone/04_Find.png" width="500">
 
@@ -48,21 +48,21 @@ Once logged in, you should see the GitHub web page with your account icon on the
 
 <img src="clone/06_Forking.png" width="500">
 
-5. Once forking is complete, you should see the `writingtest` repository under your account.
+5. Once forking is complete you will see the `writingtest` repository under your account.
 
 <img src="clone/07_Forked.png" width="500">
 
-Next, we will clone the forked repository on a local maching using Git command line.
+Next, clone the forked repository on a local machine using Git command line.
 
 ## Cloning the Fork Using Git Command Line
 
-Cloning a Git repository creates a local copy on your computer for working remotely. Git command line tools allow syncing changes between the two locations. 
+Cloning a Git repository creates a local copy on your computer for working remotely. Git command-line tools allow syncing changes between the two locations. 
 
-The separate tutorials below provide details how to install and configure them on your local computer.
+The separate tutorials below provide details on how to install and configure them on your local computer.
 
-- [Installing Git](Installing_Git.md) <br> This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup Wizard. You will need to install Git to use the command line tool.
+- [Installing Git](Installing_Git.md) <br> This tutorial is intended for novice Git users and guides you through the step-by-step Git Setup Wizard. You will need to install Git to use the command-line tool.
 
-- [Setting Up SSH Key](SSH_Key.md) <br> Procedures to generate, set up an SSH key and use it with a GitHub account. <br> With SSH keys, you can connect to GitHub without supplying your username or password at each visit. <br> SSH is an optional alternative to an HTTPS connection, which does not have a key configuration step, but will require username and password for Git operations.
+- [Setting Up SSH Key](SSH_Key.md) <br> Procedures to generate, set up an SSH key, and use it with a GitHub account. <br> With SSH keys, you can connect to GitHub without supplying your username or password at each visit. <br> SSH is an optional alternative to an HTTPS connection, which does not have a key configuration step, but requires a username and password for Git operations.
 
 ### Cloning the Repository Locally
 
@@ -81,13 +81,13 @@ $ mkdir github
 $ cd github
 ```
 
-5. Type `git clone ` (ending with a space), then paste the URL (Right-Click), and press Enter. <br>
+5. Type `git clone ` (ending with a space), then paste the URL, and press **Enter**. <br>
    The URL will depend on whether **HTTPS** or **SSH** was chosen earlier, but the process is the same.
 ```
 $ git clone https://github.com/the-write-one/writingtest.git
 Cloning into `writingtest` ...
 ```
-In case of SSH, the URL will look like this:
+In the case of SSH, the URL will look like this:
 ```
 git clone git@github.com:the-write-one/writingtest.git
 ```
@@ -106,7 +106,7 @@ Your branch is up-to-date with 'origin/master'.
 Changes not staged for commit:
         modified:   README.md
 ```
-> 💡 Note: `origin/master` are the names of the repository and the branch, which are later used in [Pushing to the GitHub Server](#pushing-to-the-github-server).
+> 💡 Note: `origin/master` are the names of the repository and the branch later used in [Pushing to the GitHub Server](#pushing-to-the-github-server).
 
 ### Committing the Change Locally
 
@@ -153,7 +153,7 @@ To https://github.com/the-write-one/writingtest.git
    53ff74c..98d0755  master -> master
 ```
 
-At this point, you may want to verify the changes at the GitHub server:
+At this point, verify the changes at the GitHub server:
 
 <img src="clone/21_Server_Changes.png" width="600">
 
@@ -185,7 +185,7 @@ At this point, you may want to verify the changes at the GitHub server:
 
 <img src="clone/14_Comments.png" width="600">
 
-Congratulations! You have successfully completed forking a GitHub repository and creating a pull request.
+Congratulations! You have completed forking a GitHub repository and creating a pull request.
 
 ## Additional Resources
 
